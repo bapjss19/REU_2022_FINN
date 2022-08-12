@@ -13,4 +13,5 @@ To access/run the files in Justin and Emily's FINN:
 7. The Quantized XOR Network can be found in end2nd_example/cybersecurity
 
 For Emily's Quant XOR Network:
+
 Emily's model results in a loss stuck at 0.25 from the first 1000 epochs. This may be due to setting the weight_bit_width = 2, which is in line 134-136.
