@@ -1,5 +1,5 @@
 # REU_2022_FINN
-This is a repository to save the work Justin So and Emily Namm did during their time in Rice University's REU Program.
+This is a repository to save the work Justin So and Emily Namm did during their time in Rice University's REU Program from May-August 2022.
 
 Justin and Emily's files are located in Atlas. There are two FINN frameworks running in Atlas. Thomas's FINN is in the rffi folder and Justin and Emily's FINN is in the Documents folder.
 
