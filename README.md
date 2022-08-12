@@ -22,5 +22,5 @@ For Justin's XOR Network:
 There seems to be a few issues here:
 1. The ONNX model reads the model input as a (0x2) input. Consequently, it produces a (0x1) output.
 2. The Netron Model shows that the HLS Layer Conversion functions did not change the model.
-3. This may explain why the StreamingDataflowPartition node is not created, which is needed for the Dataflow Partition step.
+3. (2) may explain why the StreamingDataflowPartition node is not created, which is needed for the Dataflow Partition step.
 4. Since the Dataflow Partition step was skipped, the folding step (shown in the last cell in the XOR Network file) cannot be completed correctly.
